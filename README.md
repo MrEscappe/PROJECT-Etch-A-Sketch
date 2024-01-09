@@ -19,3 +19,5 @@ This project was a good opportunity to practice DOM manipulation using JavaScrip
 I had a lot of fun doing this project and I am happy with the result. I am looking forward to the next project.
 
 ## Live Demo
+
+[Live Demo Link](https://mrescappe.github.io/PROJECT-Etch-A-Sketch/)
