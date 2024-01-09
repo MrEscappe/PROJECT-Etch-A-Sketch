@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etch a Sketch</title>
+		<link rel="stylesheet" href="style/normalize.css" />
+		<link rel="stylesheet" href="style/style.css" />
+	</head>
+	<body>
+		<main class="container-main">
+			<div class="container-right">
+				<input type="color" id="color" />
+				<input type="range" min="16" max="64" id="slider" value="16" />
+				<button class="btn btn-color">Color</button>
+				<button class="btn btn-rainbow">Rainbow</button>
+				<button class="btn btn-reset">Reset</button>
+			</div>
+			<div class="container-box" style="--grid-size: 16" ;></div>
+		</main>
+		<script src="/script/script.js"></script>
+	</body>
+</html>

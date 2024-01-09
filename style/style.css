@@ -1,0 +1,23 @@
+.container-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container-box {
+	--grid-size: 16;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 3px 13px -7px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 4px 3px 13px -7px rgba(0, 0, 0, 0.75);
+	box-shadow: 4px 3px 13px -7px rgba(0, 0, 0, 0.75);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid {
+	width: calc(100% / var(--grid-size));
+	height: calc(100% / var(--grid-size));
+}
